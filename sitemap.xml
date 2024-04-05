@@ -16,12 +16,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/BrickCollection/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/Curie/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/Curie/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/DataResource/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -56,6 +56,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/FormatDialect/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/FormatEnum/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/Information/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://biobricks-ai.github.io/biobricks-schema/Integer/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
@@ -71,7 +86,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/NamedThing/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/MediaTypeEnum/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -91,17 +106,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/PersonStatus/</loc>
-         <lastmod>2024-04-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://biobricks-ai.github.io/biobricks-schema/Sparqlpath/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://biobricks-ai.github.io/biobricks-schema/String/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/TestRole/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -126,17 +141,52 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/age_in_years/</loc>
-         <lastmod>2024-04-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://biobricks-ai.github.io/biobricks-schema/biobricks-schema/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/birth_date/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/bytes/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/comment_prefix/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/compression/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/conforms_to/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/conforms_to_class/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/conforms_to_schema/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/created_by/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/created_on/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/delimiter/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -146,7 +196,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/entries/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/dialect/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/double_quote/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/download_url/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/encoding/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/format/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/hash/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/header/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -156,17 +236,107 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/name/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/issued/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/primary_email/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/keywords/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://biobricks-ai.github.io/biobricks-schema/vital_status/</loc>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/language/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/last_updated_on/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/license/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/md5/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/media_type/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/modified_by/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/page/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/path/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/profile/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/publisher/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/quote_char/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/resources/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/sha256/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/status/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/test_roles/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/themes/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/title/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/version/</loc>
+         <lastmod>2024-04-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://biobricks-ai.github.io/biobricks-schema/was_derived_from/</loc>
          <lastmod>2024-04-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
