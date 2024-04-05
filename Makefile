@@ -6,6 +6,10 @@ SHELL := bash
 .SUFFIXES:
 .SECONDARY:
 
+# define temporary variable for $(call ...)
+1 :=
+unquote = $(patsubst "%,%,$(patsubst %",%,$(1)))
+
 # environment variables
 .EXPORT_ALL_VARIABLES:
 ifdef LINKML_ENVIRONMENT_FILENAME
@@ -16,8 +20,8 @@ endif
 
 RUN = poetry run
 SCHEMA_NAME = $(LINKML_SCHEMA_NAME)
-SOURCE_SCHEMA_PATH = $(LINKML_SCHEMA_SOURCE_PATH)
-SOURCE_SCHEMA_DIR = $(dir $(SOURCE_SCHEMA_PATH))
+SOURCE_SCHEMA_PATH = $(call unquote,$(LINKML_SCHEMA_SOURCE_PATH))
+SOURCE_SCHEMA_DIR = $(patsubst %/,%,$(dir $(SOURCE_SCHEMA_PATH)))
 SRC = src
 DEST = project
 PYMODEL = $(SRC)/$(SCHEMA_NAME)/datamodel
@@ -192,6 +196,7 @@ $(DOCDIR):
 	mkdir -p $@
 
 gendoc: $(DOCDIR)
+	cp -f $(SOURCE_SCHEMA_DIR)/*.yaml $(DOCDIR) ; \
 	cp -rf $(SRC)/docs/* $(DOCDIR) ; \
 	$(RUN) gen-doc ${GEN_DOC_ARGS} -d $(DOCDIR) $(SOURCE_SCHEMA_PATH)
 
