@@ -1,15 +1,15 @@
 id: "http://example.org/sample/datasets"
 title: TODO(brick-name)
-description: |
+description: >-
   TODO(
     Description Here
   )
 resources:
   brick/file0.parquet:
     title: "Dataset of Chemical Compounds"
-    description: |
+    description: >-
       TODO(Contains data on ...)
   brick/file1.parquet:
     title: "Dataset of Chemical Compounds"
-    description: |
+    description: >-
       TODO(Contains data on ...)
