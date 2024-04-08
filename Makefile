@@ -6,9 +6,11 @@ SHELL := bash
 .SUFFIXES:
 .SECONDARY:
 
+ESC:=￾
+SPACE:=$() $()
 # define temporary variable for $(call ...)
 1 :=
-unquote = $(patsubst "%,%,$(patsubst %",%,$(1)))
+unquote = $(subst $(ESC),$(SPACE),$(patsubst "%,%,$(patsubst %",%,$(subst $(SPACE),$(ESC),$(1)))))
 
 # environment variables
 .EXPORT_ALL_VARIABLES:
@@ -29,7 +31,7 @@ DOCDIR = docs
 EXAMPLEDIR = examples
 SHEET_MODULE = personinfo_enums
 SHEET_ID = $(LINKML_SCHEMA_GOOGLE_SHEET_ID)
-SHEET_TABS = $(LINKML_SCHEMA_GOOGLE_SHEET_TABS)
+SHEET_TABS = $(call unquote,$(LINKML_SCHEMA_GOOGLE_SHEET_TABS))
 SHEET_MODULE_PATH = $(SOURCE_SCHEMA_DIR)/$(SHEET_MODULE).yaml
 
 CONFIG_YAML =
